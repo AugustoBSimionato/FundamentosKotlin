@@ -14,7 +14,7 @@ fun mathOperation(a: Int, b: Int, mathOperation: (Int, Int) -> Int): Int {
 
 fun main() {
 
-    val divide = { a: Int, b: Int -> a / b }
+    val divide = { a: Int, b: Int -> a / b } //fun anônima
 
     println(mathOperation(a = 10, b = 5, ::sum))
     println(mathOperation(a = 10, b = 5, ::subtract))
